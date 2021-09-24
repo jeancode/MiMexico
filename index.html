@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi mexico</title>
+
+    <style>
+
+        body{
+            margin:0px;
+            padding;
+            background: black;;
+            font-family: monospace;
+            overflow: hidden;
+        }
+        div{
+            margin:0px;
+        }
+        #creditos{
+            width:100%;
+            height:100px;
+            background-color: rgba(255, 255, 255, 0.308);
+            position:fixed;
+            backdrop-filter: blur(10px);
+            z-index: 10;
+            display: flex;
+            color:white !important;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            font-size: 30px;
+        }
+        .textCredit{
+            font-size: 16px;;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <div id="creditos">
+
+        <label>Viva Mexico</label>
+        <label class="textCredit">Jeancode</label>
+
+    </div>
+    <script src="./js/three.min.js"></script>
+    <script src="./js/Detector.js"></script>
+    <script src="./js/OrbitControls.js"></script>
+    <script src="./js/Cloth.js"></script>
+    <script src="./js/game.js"></script>
+</body>
+</html>
